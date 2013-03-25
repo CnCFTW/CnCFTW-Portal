@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html> 
+	<head> 
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>CnCFTW News</title>
+		<meta name="Description" content="The latest on C&amp;C community news from around the globe.">
+		<link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script type="text/javascript" src="/assets/js/FeedEk.js"></script>
+	</head>
+
+	<body>
+		<div id="wrapper">
+			<nav>
+				<ul>
+					<li class="btn-home"><a href="/">Home</a></li>
+					<li class="btn-forums"><a href="/forums/">Forums</a></li>
+					<li class="btn-tournys"><a href="Tournaments.html">Tournaments</a></li>
+					<li class="btn-replays"><a href="Replays.html">Replays</a></li>
+					<li class="btn-files last"><a href="Downloads.html">C&amp;C Files</a></li>
+				</ul>
+			</nav>
+
+			<div id="left-panel">
+				<h2>Latest Threads</h2>
+				<div id="divRssTopics"></div>
+			</div>
+
+			<div id="main-panel">
+				<h1>CnCFTW News</h1>
+				<div id="divRss"></div>
+			</div>
+
+			<div id="right-panel">
+				<h2>Login</h2>
+				<form method="post" action="http://cncftw.com/forums/member.php">
+					<input type="hidden" name="action" value="do_login">
+					<input type="hidden" name="url" value="member.php">
+					Username<br>
+					<input type="text" name="username" value="">
+					<br><br>
+					Password<br>
+					<input type="password" name="password" value="">
+					<br><br>
+					<input type="submit" class="login-submit" name="loginsubmit" value="Login!">
+				</form>
+			</div>
+
+			<footer>
+				<ul>
+					<li class="btn-facebook"><a href="http://www.facebook.com/cncftwcommunity">FaceBook</a></li>
+					<li class="btn-youtube last"><a href="http://www.youtube.com/user/TheiNs0MNiaC1">Youtube</a></li>
+				</ul>
+			</footer>
+		</div>
+		<script type="text/javascript">
+			<!--
+			$('#divRss').FeedEk({
+			FeedUrl: 'http://cncftw.com/forums/syndication.php?fid=11&type=atom1.0&limit=15',
+			MaxCount: 15,
+			ShowDesc: true,
+			ShowPubDate: true
+			});
+
+			$('#divRssTopics').FeedEk({
+			FeedUrl: 'http://cncftw.com/forums/syndication.php?type=atom1.0&limit=15',
+			MaxCount: 15,
+			ShowDesc: false,
+			ShowPubDate: true
+			});
+			//-->
+		</script>
+	</body>
+</html>
