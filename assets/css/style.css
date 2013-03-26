@@ -1,5 +1,5 @@
 * {
-  margin: 0;
+	margin: 0;
 	padding: 0;
 }
 
@@ -116,7 +116,7 @@ li.btn-facebook {
 }
 
 li.btn-facebook:hover {
-	background-position: -227px -35px; 
+	background-position: -227px -36px; 
 }
 
 li.btn-youtube {
@@ -125,7 +125,7 @@ li.btn-youtube {
 }
 
 li.btn-youtube:hover {
-	background-position: -263px -35px;
+	background-position: -263px -36px;
 }
 
 div#left-panel {
