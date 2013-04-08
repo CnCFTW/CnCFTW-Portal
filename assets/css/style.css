@@ -120,12 +120,12 @@ li.btn-facebook:hover {
 }
 
 li.btn-youtube {
-	background-position: -263px 0px;
+	background-position: -264px -1px;
 	width: 35px;
 }
 
 li.btn-youtube:hover {
-	background-position: -262px -35px;
+	background-position: -263px -36px;
 }
 
 div#left-panel {
