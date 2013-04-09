@@ -12,7 +12,7 @@ body {
 	color: #fff;
 }
 
-div#wrapper {
+#wrapper {
 	background: url('../img/CnCFTW_BG.png') no-repeat;
 	width: 1350px;
 	height: 798px;
@@ -128,21 +128,21 @@ li.btn-youtube:hover {
 	background-position: -263px -36px;
 }
 
-div#left-panel {
+#left-panel {
 	height: 258px;
 	width: 223px;
 	margin: 321px 0 0 14px;
 	position: absolute;
 }
 
-div#main-panel {
+#main-panel {
 	width: 690px;
 	margin-left: 348px;
 	margin-top: 223px;
 	position: absolute;
 }
 
-div#right-panel {
+#right-panel {
 	height: 127px;
 	width: 198px;
 	margin: 299px 0 0 1131px;
@@ -179,7 +179,7 @@ input.login-submit {
 	overflow: auto;
 	height: 390px;
 }
-div#divRss .itemTitle{
+#divRss .itemTitle{
  font-size: 15px;
  font-family: Arial, sans-serif;
  font-weight: bold;
@@ -190,10 +190,10 @@ div#divRss .itemTitle{
  border-right: 1px solid #808080;
  border-left: 1px solid #808080;
 }
-div#divRss .itemTitle a{ color:#50CA0E; text-decoration:none }
-div#divRss .itemTitle a:hover{ text-decoration:underline }
+#divRss .itemTitle a{ color:#50CA0E; text-decoration:none }
+#divRss .itemTitle a:hover{ text-decoration:underline }
 
-div#divRss .itemContent{
+#divRss .itemContent{
  font-family: Arial, sans-serif;
  font-size: 13px;
  padding:1px 3px 3px 3px;
@@ -203,7 +203,7 @@ div#divRss .itemContent{
  border-right: 1px solid #808080;
  border-left: 1px solid #808080;
 }
-div#divRss .itemDate{
+#divRss .itemDate{
  font-family: Arial, sans-serif;
  font-size:11px;
  color:#AAA;
@@ -221,7 +221,7 @@ div#divRss .itemDate{
   height: 232px;
 
 }
-div#divRssTopics .itemTitle{
+#divRssTopics .itemTitle{
   font-size: 13px;
   font-family: Arial, sans-serif;
   background: rgba(0, 0, 0, .5);
@@ -232,10 +232,10 @@ div#divRssTopics .itemTitle{
 */
   margin-top: 6px;
 }
-div#divRssTopics .itemTitle a{ color:#50CA0E; text-decoration:none }
-div#divRssTopics .itemTitle a:hover{ text-decoration:underline }
+#divRssTopics .itemTitle a{ color:#50CA0E; text-decoration:none }
+#divRssTopics .itemTitle a:hover{ text-decoration:underline }
 
-div#divRssTopics .itemDate{
+#divRssTopics .itemDate{
  font-family: Arial, sans-serif;
  font-size:10px;
  color:#AAA;
